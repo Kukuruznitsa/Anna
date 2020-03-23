@@ -1,0 +1,49 @@
+.logo
+{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.menu
+{
+    text-align: center;
+    text-align: center;
+    background-color: red;
+}
+.nf
+{
+    background-color: brown;
+    color: cornsilk;
+    height: 150px;
+   text-align: center;
+}
+.list
+{
+    width: 150px;
+    background-color: orange;
+    text-align: center;
+    
+}
+.bar
+{
+    width: 30px;
+    background-color: black;
+    color: honeydew;
+    text-align: center;
+}
+.footer
+{
+    background-color: orange;
+    height: 90px;
+    text-align: center;
+}
+table
+{
+    border-collapse:collapse;
+}
+td
+{
+    border: 1px solid black;
+}
