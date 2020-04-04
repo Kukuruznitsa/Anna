@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .all_page
+    {
+        
+        width: 960px;
+        height: 1350px;
+        background: #F3F7FA;
+        
+        
+        
+    }
+    .blocks
+    {
+        position:absolute;
+        background: #F3F7FA;
+        flex-wrap: wrap;
+        display: inline-flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin-left: 103px;
+        margin-right: 103px;
+        margin-top: 160px;
+        margin-bottom: 120px;
+        height: 1070px;
+        padding: 0;
+        
+        
+    } 
+   
+    .block_menu:nth-child(1)
+    {
+        background-color: darkgreen;
+        box-sizing: border-box;
+        width: 232px;
+        height: 252px;
+        align-self: flex-start;
+
+        background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+        
+    }
+    .block_menu:nth-child(2)
+    {
+        box-sizing: border-box;
+        width: 502px;
+        
+        
+    }
+
+
+
+    .cheap_fast
+    {
+        display: flex;
+        
+        margin: 20px;
+        
+        margin-top: 0;
+        
+      
+    }
+    .cheap, .fast
+    {       
+        text-align: center;
+        width: 252px;
+        height: 50px;
+        margin:0;     
+    }
+    .cheap{
+        background: #2196F3;
+    }
+    .cheap_text
+    {
+        position: absolute;
+
+        margin-left: 57px;
+        margin-top: 15px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height, or 167% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        
+
+        color: #FFFFFF;
+    }
+    .fast
+    {
+        background-color: white;
+        border: 1px solid #DFE5EC;
+    }
+    .fast_text
+    {
+        position: absolute;
+        width: 138px;
+        height: 20px;
+        margin-left: 309px;
+        margin-top: 15px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        color: #4A4A4A;
+    }
+    
+    
+
+
+
+
+
+
+
+
+    .tikets
+    {
+        box-sizing: border-box;
+        height: 184px;
+        margin: 20px;
+        background-color: brown;
+
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    
+    .checkbox
+    {
+        position: absolute;
+        margin-left:20px ;
+      
+    }
+    .h_in_checkbox
+    {   
+        
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+
+
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        color: #4A4A4A;
+    }
+
+
+
+
+
+
+
+    .line_1
+    {
+        display: flex;
+       
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 60px;
+        justify-content: space-between;
+        
+
+    }
+    .line_2
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 18px;
+        margin:0;
+        margin-top:24px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+
+
+        color: #A0B0B9; 
+    }
+    .line_3
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 21px;
+        margin:0;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #4A4A4A;
+
+    }    
+
+    .line_4
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 18px;
+        margin:0;
+        margin-top:10px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+
+
+        color: #A0B0B9; 
+
+    }
+    .line_5
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 21px;
+        margin:0;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #4A4A4A;
+    }
+    .col1
+    {
+        width: 141px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+        
+    }
+    .col2
+    {
+        width: 141px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+       
+    }
+    .col3
+    {
+        width: 140px;
+        margin-right: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+       
+    }
+  
+
+   
+  
+
+
+    .price
+    {
+      
+       
+
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px; 
+        margin:0;
+        color: #2196F3;
+    }
+
+    .logo
+    {
+        left: 72.6%;
+        right: 15.94%;
+        top: 18.52%;
+        bottom: 78.81%;
+        align-self: flex-start;
+
+    }
+
+
+
+</style>
+
+
+
+<body>
+    <div class="all_page">
+        <div class = "blocks">
+            <div class = "block_menu"></div>
+            <div class = "checkbox">
+                <p class = "h_in_checkbox">Количество пересадок</p>
+                <p><input type="checkbox"> Все</p>
+                <p><input type="checkbox"> Без пересадок</p>
+                <p><input type="checkbox"> 1 пересадка</p>
+                <p><input type="checkbox"> 2 пересадки</p>
+                <p><input type="checkbox"> 3 пересадки</p>
+            </div>
+
+
+
+            <div class = "block_menu">
+
+                <div class = "cheap_fast">
+                    <div class="cheap"></div>
+                    <p class = "cheap_text">Самый дешевый</p>
+                    <p class = "fast_text">Самый быстрый</p>
+                    <div class = "fast"></div>
+                </div>
+
+
+                <div class = "tikets">
+
+                    <div class = "line_1">
+                        <p class = "price">13 400 P</p>
+                        <img class = "logo" src="S7Logo.png" alt="LOGO">
+                    </div>
+
+                    <div class = "line_2">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">2 пересадки</p>
+                    </div>
+
+                    <div class = "line_3">
+                        <p class = "col1">10:45 – 08:00</p>
+                        <p class = "col2">21ч 15м</p>
+                        <p class = "col3">HKG, JNB</p>
+                    </div>
+
+                    <div class = "line_4">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">1 пересадки</p>
+                    </div>
+
+                    <div class = "line_5">
+                        <p class = "col1">11:20 – 00:50</p>
+                        <p class = "col2">13ч 30м</p>
+                        <p class = "col3">HKG</p>
+                    </div>
+
+                </div>
+                
+                <div class = "tikets">
+                    <div class = "line_1">
+                        <p class = "price">13 400 P</p>
+                        <img class = "logo" src="S7Logo.png" alt="LOGO">
+                    </div>
+
+                    <div class = "line_2">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">2 пересадки</p>
+                    </div>
+
+                    <div class = "line_3">
+                        <p class = "col1">10:45 – 08:00</p>
+                        <p class = "col2">21ч 15м</p>
+                        <p class = "col3">HKG, JNB</p>
+                    </div>
+
+                    <div class = "line_4">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">1 пересадки</p>
+                    </div>
+
+                    <div class = "line_5">
+                        <p class = "col1">11:20 – 00:50</p>
+                        <p class = "col2">13ч 30м</p>
+                        <p class = "col3">HKG</p>
+                    </div>
+                </div>
+                <div class = "tikets">
+                    <div class = "line_1">
+                        <p class = "price">13 400 P</p>
+                        <img class = "logo" src="S7Logo.png" alt="LOGO">
+                    </div>
+
+                    <div class = "line_2">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">2 пересадки</p>
+                    </div>
+
+                    <div class = "line_3">
+                        <p class = "col1">10:45 – 08:00</p>
+                        <p class = "col2">21ч 15м</p>
+                        <p class = "col3">HKG, JNB</p>
+                    </div>
+
+                    <div class = "line_4">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">1 пересадки</p>
+                    </div>
+
+                    <div class = "line_5">
+                        <p class = "col1">11:20 – 00:50</p>
+                        <p class = "col2">13ч 30м</p>
+                        <p class = "col3">HKG</p>
+                    </div>
+                </div>
+                <div class = "tikets">
+                    <div class = "line_1">
+                        <p class = "price">13 400 P</p>
+                        <img class = "logo" src="S7Logo.png" alt="LOGO">
+                    </div>
+
+                    <div class = "line_2">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">2 пересадки</p>
+                    </div>
+
+                    <div class = "line_3">
+                        <p class = "col1">10:45 – 08:00</p>
+                        <p class = "col2">21ч 15м</p>
+                        <p class = "col3">HKG, JNB</p>
+                    </div>
+
+                    <div class = "line_4">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">1 пересадки</p>
+                    </div>
+
+                    <div class = "line_5">
+                        <p class = "col1">11:20 – 00:50</p>
+                        <p class = "col2">13ч 30м</p>
+                        <p class = "col3">HKG</p>
+                    </div>
+                </div>
+                <div class = "tikets">
+                    <div class = "line_1">
+                        <p class = "price">13 400 P</p>
+                        <img class = "logo" src="S7Logo.png" alt="LOGO">
+                    </div>
+
+                    <div class = "line_2">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">2 пересадки</p>
+                    </div>
+
+                    <div class = "line_3">
+                        <p class = "col1">10:45 – 08:00</p>
+                        <p class = "col2">21ч 15м</p>
+                        <p class = "col3">HKG, JNB</p>
+                    </div>
+
+                    <div class = "line_4">
+                        <p class = "col1">MOW – HKT</p>
+                        <p class = "col2">В пути</p>
+                        <p class = "col3">1 пересадки</p>
+                    </div>
+
+                    <div class = "line_5">
+                        <p class = "col1">11:20 – 00:50</p>
+                        <p class = "col2">13ч 30м</p>
+                        <p class = "col3">HKG</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
