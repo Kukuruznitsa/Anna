@@ -60,9 +60,10 @@ function calc_time(speed, slowdown, mine)
 
 }
 
-function calc_visitors(n)
+function calc_visitors(x)
 {   //эту формулу я выводила
-    console.log((((1+Math.sqrt(1+8*n))/2) - 1) + " visitors");
+    
+    console.log((((1+Math.sqrt(1+8*x))/2)) + " visitors");
 }
 
 
