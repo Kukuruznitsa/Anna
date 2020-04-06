@@ -1,0 +1,4 @@
+- [x] [Return the Missing Element](https://www.codewars.com/kata/return-the-missing-element): [Solution](https://www.codewars.com/kata/reviews/52995cff9ce954dc50000a86/groups/5e8b272cab31b800013a42bf)
+- [x] [Add property to every object in array](https://www.codewars.com/kata/add-property-to-every-object-in-array): [Solution](https://www.codewars.com/kata/54e8c3e89e2ae6f4900005a1/solutions/javascript/me/best_practice)
+- [x] [Find Your Villain Name](https://www.codewars.com/kata/find-your-villain-name): [Solution](https://www.codewars.com/kata/536c00e21da4dc0a0700128b/solutions/javascript/me/best_practice)
+- [x] [Opposites Attract](https://www.codewars.com/kata/opposites-attract): [Solution](#link)
